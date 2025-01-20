@@ -72,7 +72,7 @@ class MediaController extends Controller
                     {
                         $upload_file_name = \Str::slug($request->file_name).'.'.$data['uploaded'][$key]['extension'];
 
-                        $upload_file_path = 'storage/app/'.$request->folder_path.'/'.$upload_file_name;
+                        $upload_file_path = 'storage/app/public/'.$request->folder_path.'/'.$upload_file_name;
 
                         $full_upload_file_path = base_path($upload_file_path);
 

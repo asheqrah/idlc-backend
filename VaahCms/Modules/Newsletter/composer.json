@@ -1,0 +1,28 @@
+{
+    "name": "vaahcms/newsletter",
+    "description": "Send newsletter mails to users",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Exsentra",
+            "email": "asheq@exsentra.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VaahCms\\Modules\\Newsletter\\Providers\\NewsletterServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "VaahCms\\Modules\\Newsletter\\": ""
+        }
+    }
+}

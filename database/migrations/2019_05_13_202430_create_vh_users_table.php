@@ -71,8 +71,6 @@ class CreateVhUsersTable extends Migration
                 $table->timestamps();
                 $table->softDeletes();
                 $table->index(['created_at', 'updated_at', 'deleted_at']);
-
-                
             });
         }
 
@@ -82,13 +80,6 @@ class CreateVhUsersTable extends Migration
             $table->foreign('updated_by')->references('id')->on('vh_users');
             $table->foreign('deleted_by')->references('id')->on('vh_users');
         });
-
-        Schema::table('vh_users', function (Blueprint $table) {
-            $table->string('provider')->nullable()->index()->comment("Social login provider (e.g., Google, Facebook)");
-            $table->string('provider_id')->nullable()->index()->comment("Unique ID from the provider");
-            $table->string('provider_token')->nullable()->comment("Access token from the provider");
-        });
-        
 
     }
 

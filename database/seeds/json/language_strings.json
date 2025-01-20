@@ -1082,8 +1082,8 @@
     {
         "locale_code_iso_639": "en",
         "category": "dashboard",
-        "name": "Welcome to VaahCms",
-        "content": "Welcome to Vaah<b>Cms</b>"
+        "name": "Welcome to IDLCCms",
+        "content": "Welcome to IDLC<b>Cms</b>"
     },
     {
         "locale_code_iso_639": "en",
@@ -5364,7 +5364,7 @@
         "locale_code_iso_639": "es",
         "category": "dashboard",
         "name": "Welcome to VaahCms",
-        "content": "Bienvenido a Vaah<b>Cms</b>"
+        "content": "Bienvenido a IDLC<b>Cms</b>"
     },
     {
         "locale_code_iso_639": "es",
@@ -9123,7 +9123,7 @@
         "locale_code_iso_639": "fr",
         "category": "dashboard",
         "name": "Welcome to VaahCms",
-        "content": "Bienvenue sur Vaah<b>Cms</b>"
+        "content": "Bienvenue sur IDLC<b>Cms</b>"
     },
     {
         "locale_code_iso_639": "fr",

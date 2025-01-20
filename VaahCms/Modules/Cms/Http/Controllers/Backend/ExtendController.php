@@ -41,7 +41,8 @@ class ExtendController extends Controller
                 "options" => TaxonomyType::getListInTreeFormat(),
                 "filter_by" => 'vh_taxonomy_type_id',
                 "add_url" => route('vh.backend')."#/vaah/manage/taxonomies/create",
-                "has_children" => true
+                "has_children" => true,
+                "display_column" => 'name', // Assuming 'name' is the column for taxonomy names
             ],
             [
                 "name" => "Role",

@@ -20,7 +20,7 @@ return [
     'total_permission' => 'Autorisation Totale',
     'active_users' => 'Utilisateurs Actifs',
     'view_details' => 'Voir les Détails',
-    'welcome_to_vaahcms' => 'Bienvenue sur Vaah<b>Cms</b>',
+    'welcome_to_vaahcms' => 'Bienvenue sur IDLC<b>Cms</b>',
     'welcome_message' => 'Nous avons rassemblé quelques liens pour vous aider à démarrer:',
     'get_started' => 'Commencer',
     'next_steps' => 'Prochaines Étapes',

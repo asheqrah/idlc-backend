@@ -20,7 +20,7 @@ return [
     'total_permission' => 'Total Permission',
     'active_users' => 'Active Users',
     'view_details' => 'View Details',
-    'welcome_to_vaahcms' => 'Welcome to Vaah<b>Cms</b>',
+    'welcome_to_vaahcms' => 'Welcome to IDLC<b>Cms</b>',
     'welcome_message' => 'We\'ve assembled some links to get you started:',
     'get_started' => 'Get Started',
     'next_steps' => 'Next Steps',

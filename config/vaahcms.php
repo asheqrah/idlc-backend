@@ -6,8 +6,8 @@
 
 
 $settings =  [
-    'app_name' => 'VaahCMS',
-    'app_slug' => 'vaahcms',
+    'app_name' => 'IDLC',
+    'app_slug' => 'IDLCcms',
     'version' => '2.2.11',
     'php_version_required' => '8.1',
     'get_config_version' => false,
@@ -26,7 +26,7 @@ $settings =  [
     'themes_url' => env('APP_URL').'/vaahcms/themes',
     'storage_url' => env('APP_URL').'/storage',
     'public_url' => env('APP_URL'),
-    'backend_logo_url' => 'vaahcms/backend/vaahone/images/idlcmbr.svg', // vh_backend_logo()
+    'backend_logo_url' => 'vaahcms/backend/vaahone/images/logo.png', // vh_backend_logo()
     'per_page' => 20,
     'build_directory_name' => 'vaahcms',    //config('vaahcms.build_directory_name')
     'minified' => 0,
